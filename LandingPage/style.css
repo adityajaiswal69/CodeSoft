@@ -1,0 +1,536 @@
+*{
+margin: 0;
+padding: 0;
+}
+p{
+    font-weight: 400;
+    font-size: small;
+    color: #A6A6A6;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+   
+    
+    
+    background: radial-gradient(
+        
+        rgb(253, 253, 253)0%,
+        rgba(82, 189, 169, 0)25%,
+        rgba(255, 255, 255, 0.308)50%,
+        rgba(3, 241, 202, 0.315)   100%
+
+    );
+   
+
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav ul{
+    
+    display: flex;
+   gap: 2vw;
+   margin-left: 275px;
+}
+nav ul li{
+    list-style: none;
+    font-weight: 500;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    
+    position: relative;
+    
+    color: #000000cb;
+    
+}
+nav ul li a::after{
+    content: '';
+    position: absolute;
+    background: #54BD95;
+    width: 0%;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    
+  
+  }
+  nav ul li a:hover::after{
+    color: black;
+    width: 100%;
+  }  
+
+nav ul li a :hover{
+    color: black;
+}
+
+nav button{
+    border: none;
+    
+}
+.Sign{
+    border-radius: 10px;
+    background-color: #54BD95;
+    padding: 10px;
+    color: #fff;
+}
+.Login{
+    border-radius: 10px;
+    
+    padding: 10px;
+    color: #000000cb;
+}
+.Login :active{
+    background-color: #54BD95;
+}
+
+.container{
+    padding: 10px 10%;
+  }
+.first{
+    height: 80vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    width: 40%;
+    height: 400px;
+    align-content: center;
+    display: table-column;
+   
+    
+}
+.left h1{
+    font-size: 5vw;
+}
+.box {
+    width: 400px; 
+    height: 60px;  
+    border: solid 5px #54BD95;
+    border-color: #54BD95 transparent transparent transparent; 
+    border-radius: 50%/60px 60px 0 0;
+  }
+.left p{
+   font-weight: 500;
+   text-align: left;
+  
+}  
+
+.try{
+    background-color: #54BD95;
+    border: none;
+    border-radius: 20px 20px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 200;
+}
+.view{
+    border: none;
+    background: none;
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+.right{
+    
+    height: 400px;
+    
+}
+
+.right img{
+ width: 500px;
+    
+ object-fit: cover;
+}
+
+
+.comment{
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+}
+.second{
+    background: #F9F8FE;
+
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.second p{
+    font-weight: 400;
+    font-size: small;
+}
+.l1{
+    flex-basis: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+
+
+    
+}
+.l1 span{color: #FFC728;
+
+}
+#star{
+    color: gray;
+}
+.rating{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.r1{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    
+    
+}
+.third{
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    
+}
+.our{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px 20px 90px;
+}
+.mate{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr)) ;
+    margin-top: 40px;
+    width: 100%;
+    justify-items: center;
+   align-items: center;
+
+    
+   
+}
+.mate img{
+    width: 300px;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.l2{
+    flex-basis: 50%;
+    
+}
+.l2 ul{
+    margin: 20px;
+    gap: 10px;
+}
+.l2 ul li{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 200;
+    font-size: small;   
+    margin-top: 20px; 
+}
+.l2 ul li img{
+    
+ width: 20px;
+
+}
+.r2{
+    margin-top: 60px;
+}
+.r2 img{
+width: 500px;
+}
+
+.fifth{
+    display: flex;
+    justify-content: center;
+    
+}
+.plan{
+    text-align: center;
+}
+.Bill{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.bilbtn{
+    padding: 5px 5px;
+    width: 15%;
+    background-color: #fff;
+    border-radius:5px ;
+    display: flex;
+    justify-content: space-around;
+}
+.bilbtn1{
+    background: #fff;
+    border: none;
+    font-size: small;
+    font-weight: 400;
+
+}
+.bilbtn2{
+    background: #54BD95;
+    color: #fff;
+    border: none;
+    
+    padding: 10px 20px 10px 20px;
+    border-radius:5px ;
+    font-size: small;
+    font-weight: 400;
+}
+
+
+.billcard{
+    display: flex;
+    justify-content:  space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    height:auto;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    padding: 20px;
+    width: 20%;
+}
+.circle{
+    border-radius: 100%;
+    background-color: #6BC2A1;
+    width: 100%;
+}
+#pro{
+    background: #54BD95;
+    color: white;
+    
+}
+#pro p{
+    color: white;
+}
+#pro ul li p{
+    color: black;
+}
+.card ul li{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-weight: 200;
+    font-size: small;   
+    margin-top: 20px; 
+    
+}
+.card ul li img{
+    width: 20px;
+}
+.card-content{
+    padding: 10px;
+    background: #F9F8FE;
+    border-radius:10px ;
+    margin-top: 10px;
+    
+    
+}
+.card-content-pro{
+    padding: 10px;
+    background: #ffffff;
+    border-radius:10px ;
+    margin-top: 20px;
+}
+.card-content-pro button{
+    background-color: #54BD95;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.card-content-pro button:hover{
+    
+    background-color: #48b48bf8;
+}
+
+.card-content ul li p{
+    color: black;
+}
+.card-content button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: #54BD95;
+    margin-top: 20px;
+    background: #fff;
+}
+.card-content button:hover{
+    background-color: #54BD95;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.last{
+    display: flex;
+    height: 80vh;
+    background-color: #161C28;
+    color: white;
+    padding: 10px 80px;
+    
+}
+.last-left{
+    flex-basis: 65%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.last-right{
+    flex-basis: 35%;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+.profile img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.last-right form{
+    border-radius:10px ;
+    background-color: #222938;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 32px 24px;
+}
+
+
+.form-submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    color: #fff;
+    background-color: #54BD95;
+    border: none;
+    width: 100%;
+    padding: 12px 10px;
+    font-size: inherit;
+    gap: 8px;
+    margin: 12px 0;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: left;
+  }
+  .form-group input {
+    width: 90%;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+  } 
+
+.form-submit-btn:hover {
+    background-color: #6BC2A1;
+  }
+  form button:active {
+    scale: 0.95;
+  }
+  
+.footer{
+    padding: 10px 80px;
+    background: #161C28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.footer-left{
+flex-basis: 50%;
+
+}
+.youremail{
+    display: flex;
+    border: #A6A6A6;
+    border-radius: 10px;
+}
+.youremail button{
+    background-color: #54BD95;
+    border: none;
+    border-radius:100px ;
+    padding: 8px;
+    margin-left: 5px;
+}
+.emailsubmit input{
+    border-radius: 20px;
+    padding: 10px;
+    border: solid;
+    border-color: #A6A6A6;
+    background: transparent;
+    color: #F9F8FE;
+}
+.footer-right {
+    color: #F9F8FE;
+    display: flex;  
+    justify-content: space-between;
+    flex-basis: 50%;
+    font-weight: 600;
+    font-size: small;
+
+
+}
+.footer-right ul li{
+    color: #A6A6A6;
+    font-weight: 400;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
