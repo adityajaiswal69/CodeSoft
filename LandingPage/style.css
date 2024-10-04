@@ -304,7 +304,7 @@ width: 500px;
     border-radius:5px ;
     display: flex;
     justify-content: space-around;
-    box-shadow: 5px 5px 20px 5px#5858587e;
+    box-shadow: 5px 5px 1px 5px#2229387e;
 }
 .bilbtn1{
     background: #fff;
