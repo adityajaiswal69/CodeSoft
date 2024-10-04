@@ -125,7 +125,12 @@ nav button{
    text-align: left;
   
 }  
-
+.demo{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
 .try{
     background-color: #54BD95;
     border: none;
@@ -133,6 +138,11 @@ nav button{
     padding: 10px 20px;
     color: #fff;
     font-weight: 200;
+}
+.try :hover{
+    color: #161C28;
+    transition: 2s;
+    
 }
 .view{
     border: none;
@@ -235,7 +245,10 @@ nav button{
 }
 .mate img{
     width: 300px;
+    box-shadow: 5px 5px 10px #22293888 ;
+    border-radius: 10px;
 }
+
 
 .fourth{
     display: flex;
@@ -291,6 +304,7 @@ width: 500px;
     border-radius:5px ;
     display: flex;
     justify-content: space-around;
+    box-shadow: 5px 5px 20px 5px#5858587e;
 }
 .bilbtn1{
     background: #fff;
@@ -328,10 +342,11 @@ width: 500px;
     height:auto;
     background-color: #fff;
     border-radius: 10px;
-    
+    box-shadow: 5px 5px 7px 5px#2229387e;
     padding: 20px;
     width: 20%;
 }
+
 .circle{
     border-radius: 100%;
     background-color: #6BC2A1;
@@ -365,6 +380,7 @@ width: 500px;
     background: #F9F8FE;
     border-radius:10px ;
     margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px #31323525;
     
     
 }
